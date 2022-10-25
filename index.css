@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background: #F4F4F4;
+}
+
+
+#input-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #6943FF;
+    margin: 0px auto;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+#Number {
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: White;
+    background: transparent;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    width: 350px;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    margin: 0px 0px 20px 0px;
+    background: white;
+    border-radius: 5px;
+    color: #3D3D3D;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:active {
+    border: 2px solid black;
+}
+
+#results {
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+}
+#results > div {
+    background: #FFFFFF;
+    width: 80%;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #5A537B;
+}
+
+p {
+    margin: 15px;
+    color: #353535;
+}
